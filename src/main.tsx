@@ -10,6 +10,7 @@ const Global = createGlobalStyle`
 `;
 
 const container = document.getElementById("root");
+// Create root
 const root = createRoot(container!);
 
 root.render(
